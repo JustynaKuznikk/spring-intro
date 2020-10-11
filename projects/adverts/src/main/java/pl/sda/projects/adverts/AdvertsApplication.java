@@ -9,7 +9,7 @@ public class AdvertsApplication {
 
 	public static void main(String[] args) {
 
-		
+
 		SpringApplication.run(AdvertsApplication.class, args);
 	}
 

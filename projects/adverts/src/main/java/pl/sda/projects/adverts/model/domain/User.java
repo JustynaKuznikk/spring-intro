@@ -9,7 +9,7 @@ import javax.persistence.*;
 //który domyślnie nazwy tabel tworzy przez stworzenie
 //lizby mnogiej z nazwy klasy i wszystko małymi literami
 @Table(name= "users")
-@Getter @Setter @ToString @EqualsAndHashCode(of = "id")
+@Getter @Setter @ToString(exclude = "password") @EqualsAndHashCode(of = "id")
 @AllArgsConstructor @NoArgsConstructor @Builder
 public class User {
 
